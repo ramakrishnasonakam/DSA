@@ -17,7 +17,7 @@ class Inverse{
         Since the digits can't be greater than the length of the integer itself 
         */
         while (x>0){
-            x = x%10;
+            x = x/10;
             count++;
         }
         while (x>0) {
