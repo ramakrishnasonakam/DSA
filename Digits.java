@@ -1,3 +1,8 @@
+/*
+Counting and returning the number of digits in
+the given integer
+*/
+
 import java.util.Scanner;
 class Digits {
     public static void countDigits(int x) {
