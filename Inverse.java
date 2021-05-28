@@ -1,3 +1,8 @@
+/*
+Swapping the digits in an integer
+with its position in the integer.
+*/
+
 import java.lang.Math;
 class Inverse{
     public static void checkLength(int x) {
