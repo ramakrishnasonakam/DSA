@@ -1,3 +1,9 @@
+/*
+Printing the fibonnaci series upto
+the given order.
+*/
+
+
 import java.util.Scanner;
 class Fib {
     public static void fibSeries(int x) {
