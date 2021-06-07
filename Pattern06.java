@@ -1,3 +1,10 @@
+* * * _ * * *
+* * _ _ _ * *
+* _ _ _ _ _ *
+* * _ _ _ * *
+* * * _ * * * 
+
+
 public class Pattern06 {
     public static void main(String[] args) {
         int n=5;
