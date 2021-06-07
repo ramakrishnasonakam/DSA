@@ -1,35 +1,39 @@
 public class Pattern06 {
     public static void main(String[] args) {
-        int n=7;
-        int stars = n-1;
-        int spaces = 1;
-        for (int i=1; i<=n; i++){
-            for (int j=1; j<stars; j++){
+        int n=9;
+        int stars = (n+1)/2;
+        
+        for (int i=1; i<=(n+1)/2; i++){
+            for (int j=i;j<=stars; j++){
                 System.out.print("*\t");
-            }//left *
+                
+            }//end of printing left *
 
-            for (int j=1; j<=spaces; j++){
+            for (int j=1; j<2*i; j++){
                 System.out.print("\t");
-            }//middle "\t"
+            }//end of printing middle "\t"
 
-            for (int j=1; j<stars; j++){
+            for (int j=i; j<=stars; j++){
+                System.out.print("*\t");
+            }//end of printing right *
+
+            System.out.println("\n");
+        }// end of n-times loop
+
+        for (int i=1; i<stars; i++){
+            for (int j=1;j<=(i+1);j++){
                 System.out.print("*\t");
             }
             
-            if (i<=stars){
-                stars = stars - 1;
-                spaces = spaces + 2;
+            for (int j=1;j<=n-2*i;j++){  
+                System.out.print("\t");
             }
 
-            if (i>stars){
-                stars = stars + 1;
-                spaces = spaces - 2;
+            for (int j=1;j<=(i+1);j++){
+                System.out.print("*\t");
             }
 
             System.out.println("\n");
-
-
-
-        }// n-times loop
+        }    
     }// end of void main
 }// end of class
