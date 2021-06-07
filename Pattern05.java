@@ -1,3 +1,10 @@
+_ _ *
+_ * * *
+* * * * *
+_ * * *
+_ _ *
+
+
 import java.util.Scanner;
 public class Pattern05{
     public static void main(String[] args) {
