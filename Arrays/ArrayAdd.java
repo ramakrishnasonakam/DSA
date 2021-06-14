@@ -1,3 +1,11 @@
+/*
+arr1 = [9,9,9]
+arr2 = [1]
+res = [1,0,0,0]
+*/
+
+
+
 import java.util.Scanner;
 
 public class ArrayAdd {
