@@ -1,3 +1,11 @@
+/*
+arr1 = [9,9,9]
+arr2 = [9]
+res = [9,9,0]
+*/
+
+
+
 import java.util.Scanner;
 public class ArraysSub {
     public static void main(String[] args) {
